@@ -34,7 +34,7 @@ public class MenuCalc {
             System.out.printf("2. Find subtraction of two %s numbers\n", choices.get(choiceNum));
             System.out.printf("3. Multiply two %s numbers\n", choices.get(choiceNum));
             System.out.printf("4. Divide two %s numbers\n", choices.get(choiceNum));
-            System.out.printf("5. Raise the %s number to an natural power\n", choices.get(choiceNum));
+            System.out.printf("5. Raise the %s number to a natural power\n", choices.get(choiceNum));
             if (choiceNum.equals("2")) {
                 System.out.println("6. Compare two rational fractions");
             }
