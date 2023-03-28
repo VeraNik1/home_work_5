@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MainMenu {
     public static void menu(LoggerCalc logger) {
-
         String choice;
         boolean exit = false;
         while (!exit) {

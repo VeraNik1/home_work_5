@@ -28,7 +28,7 @@ public class LoggerCalc {
         // so we have to put it into try-catch block
         try {
             DateTimeFormatter pattern = DateTimeFormatter.ofPattern("yyyyMMddHHmms");
-            fileHandler = new FileHandler("./HW5/src/important" + LocalDateTime.now().format(pattern) +".log");
+            fileHandler = new FileHandler("./src/important" + LocalDateTime.now().format(pattern) +".log");
             // set the file handler's minimum level
             fileHandler.setLevel(Level.ALL);
             // add the handler to the logger
@@ -44,10 +44,9 @@ public class LoggerCalc {
         LOGGER.fine("fine message log");
         LOGGER.config("config message log");
         LOGGER.info(message);
-        /*
         LOGGER.warning("warn message");
         LOGGER.severe("error message");
-        */
+
 
     }
 }
