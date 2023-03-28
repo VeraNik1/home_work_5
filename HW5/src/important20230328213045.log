@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-28T18:30:45.493520900Z</date>
+  <millis>1680028245493</millis>
+  <nanos>520900</nanos>
+  <sequence>0</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.LoggerCalc</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Calculator's has started</message>
+</record>
+<record>
+  <date>2023-03-28T18:30:45.547559600Z</date>
+  <millis>1680028245547</millis>
+  <nanos>559600</nanos>
+  <sequence>1</sequence>
+  <logger>src.Main</logger>
+  <level>WARNING</level>
+  <class>src.LoggerCalc</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>warn message</message>
+</record>
+<record>
+  <date>2023-03-28T18:30:45.549561Z</date>
+  <millis>1680028245549</millis>
+  <nanos>561000</nanos>
+  <sequence>2</sequence>
+  <logger>src.Main</logger>
+  <level>SEVERE</level>
+  <class>src.LoggerCalc</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>error message</message>
+</record>
+<record>
+  <date>2023-03-28T18:30:55.523721400Z</date>
+  <millis>1680028255523</millis>
+  <nanos>721400</nanos>
+  <sequence>3</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>(2.0+3.0i)+(2.0+5.0i) = 4.0+8.0i</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:02.324097100Z</date>
+  <millis>1680028262324</millis>
+  <nanos>97100</nanos>
+  <sequence>4</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>(2.0+1.0i) ^ 3 = 2.0+11.0i</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:12.931392200Z</date>
+  <millis>1680028272931</millis>
+  <nanos>392200</nanos>
+  <sequence>5</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>Zero Division Error, try again</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:22.698761100Z</date>
+  <millis>1680028282698</millis>
+  <nanos>761100</nanos>
+  <sequence>6</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>1/5 &gt; 1/6</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:31.867437900Z</date>
+  <millis>1680028291867</millis>
+  <nanos>437900</nanos>
+  <sequence>7</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>Zero Division Error, try again</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:45.930880100Z</date>
+  <millis>1680028305930</millis>
+  <nanos>880100</nanos>
+  <sequence>8</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>Incorrect input. Please, try again.</message>
+</record>
+<record>
+  <date>2023-03-28T18:31:57.311975600Z</date>
+  <millis>1680028317311</millis>
+  <nanos>975600</nanos>
+  <sequence>9</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MenuCalc</class>
+  <method>menuCalc</method>
+  <thread>1</thread>
+  <message>(10.0) ^ 5 = 100000.0</message>
+</record>
+<record>
+  <date>2023-03-28T18:32:04.946821100Z</date>
+  <millis>1680028324946</millis>
+  <nanos>821100</nanos>
+  <sequence>10</sequence>
+  <logger>src.Main</logger>
+  <level>INFO</level>
+  <class>src.MainMenu</class>
+  <method>menu</method>
+  <thread>1</thread>
+  <message>Calculator has stopped</message>
+</record>
+</log>
