@@ -35,5 +35,9 @@ It shows the results of calculations for all types of numbers;
    5. Raise the rational fraction number to a natural power
    6. Compare two rational fractions (available only for fractions)
 
+## TwoNumCalculation
+
+Added new class for calculations between numbers, to make calcMenu shorter
+
 ## LoggerCalc
 It is for logging operations results to the file *.log (xml format).
